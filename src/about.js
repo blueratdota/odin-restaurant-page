@@ -1,12 +1,23 @@
-function constructAbout(){
+import Icon from './rat_tortillas.jpg'
 
+function constructAbout(){
+    const container = document.querySelector('.container')
+
+    const image = document.createElement('img')
+    const header = document.createElement('h2')
+    const shortText = document.createElement('p')
+
+    image.src = Icon
+    header.textContent = "This is about page"
+    shortText.textContent = "Enjoy cheap and easy to eat food made by a true Street Chef!"
+
+    container.appendChild(image)
+    container.appendChild(header)
+    container.appendChild(shortText)
 }
 
-
-
 function loadAbout(){
-    const title = document.querySelector('#title')
-    title.textContent = 'about'
+    constructAbout()
 }
 
 export default loadAbout

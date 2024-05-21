@@ -5,8 +5,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { StyledEngineProvider } from '@mui/material';
 import Exhausts from './pages/exhausts.jsx';
 import Contacts from './pages/contacts.jsx';
+
 
 import './index.css'
 
@@ -36,6 +38,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <StyledEngineProvider injectFirst>
+      <RouterProvider router={router} />
+    </StyledEngineProvider>
   </React.StrictMode>,
 )

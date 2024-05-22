@@ -4,7 +4,7 @@ import Button from '@mui/material/Button'
 
 const Home = () => {
     return (
-        <Carousel className="max-w-[720px] w-[720px] pb-4 " animation="slide">
+        <Carousel className="max-w-[720px] w-[720px]  pb-4 " animation="slide">
             {homeCarouselData.map((item) => {
                 return (
                     <CarouselCard key={item.id} item={item}></CarouselCard>

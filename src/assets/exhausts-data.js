@@ -148,6 +148,18 @@ const allExhausts = [
         image: 'https://static.leovince.com/lines/leovince-x-fight/300-side-slip-on-carbon-fiber.jpg',
         page: 6
     },
+    {
+        id: 25,
+        name: 'X-FIGHT',
+        image: 'https://static.leovince.com/lines/leovince-x-fight/300-side-full-system-stainless-steel.jpg',
+        page: 6
+    },
+    {
+        id: 26,
+        name: 'X-FIGHT CARBON FIBER',
+        image: 'https://static.leovince.com/lines/leovince-x-fight/300-side-slip-on-carbon-fiber.jpg',
+        page: 6
+    },
 
 
 ]

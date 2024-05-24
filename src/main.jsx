@@ -7,10 +7,11 @@ import {
 } from "react-router-dom";
 import { StyledEngineProvider } from '@mui/material';
 import Exhausts from './pages/exhausts.jsx';
-import Contacts from './pages/contacts.jsx';
-
+import Contacts from './pages/support.jsx';
+import Support from './pages/support.jsx';
 
 import './index.css'
+
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
         // loader: contactLoader,
       },
       { path: "exhausts", element: <Exhausts /> },
-      { path: "contacts", element: <Contacts /> }
+      { path: "support", element: <Support /> }
 
 
     ]
